@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default async function handler(req, res) {
 
-    const api_key = process.env.TRON_API_KEY;
+    const api_key = process.env.TRON_GRID_API_KEY;
 
     if (req.method !== 'POST') {
         // Return 405 Method Not Allowed if the request is not a POST
